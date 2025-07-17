@@ -1,0 +1,114 @@
+<!--
+  "index" Reference :
+
+        -> "index.html" file kisi bhi website ya web project ka main entry point hota hai.
+
+        -> Jab aap folder ko browser me open karte hain ya website ka URL type karte hain, toh browser by default index.html file ko hi load karta hai.
+
+        -> Yeh file website ka homepage ya starting page hoti hai, jahan se user navigation shuru karta hai.
+
+        -> Server jabhi website ko render karta hai, then woh hamesha index.html file ko by default homepage ke roop me treat karta hai.
+
+        -> Alag naam ko bhi homepage assign kar skte hain, but isme server ko alag se specify karna padega and also yeh good practice nahi hai.
+
+    // Isliye, hamesha index.html ko hi homepage ke roop me use karna chahiye. And apne projects mein bhi hamesha index.html file create karni chahiye.
+-->
+
+
+
+<!-- 
+    HTML Sample Code :
+        ! (Emmet Abbreviation) >> Enter
+
+    -> Emmet ek toolkit hai jo by default VS code mein hota hai. Ye bahot saare helpful shortcuts aur abbreviations provide karta hai HTML aur CSS likhne ke liye.
+
+    -> HTML sample code or Boilerplate code ek basic structure hai jo har HTML document mein hota hai. Yeh almost sabhi HTML documents mein common hota hai aur isse aapko ek starting point milta hai.
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hello World !!</p>
+</body>
+</html>
+
+
+
+<!--
+    HTML Tag :
+        A container for some content or other HTML tags.
+
+    -> HTML tag ek element ko define karta hai. Har tag ke do parts hote hain: opening tag aur closing tag.
+
+    Example :
+            <p>Hello World !!</p>
+
+        <p></p> ko Paragraph tag kehte hain.
+
+    // Idhar p is Opening tag.
+    // Aur </p> is Closing tag.
+    // 'Hello World !!' is Content.
+    // Opening tag + Content + Closing tag = Complete HTML Element.
+-->
+
+
+
+<!--
+    Basic HTML Structure :
+        -> HTML document ka basic structure kuch is tarah hota hai:
+
+            <!DOCTYPE html> - Yeh browser ko batata hai ki yeh ek HTML5 document hai.
+                -> Browser ko yeh information chahiye hoti hai taaki woh document ko sahi tarike se render kar sake.
+                -> Hamara browser hin, code ko webpage mein convert karta hai.
+
+            <html> - Yeh tag HTML document ka root element hai.
+                -> Pura web-page khud ek element hai.
+                -> Yeh sabse bda element hai !!
+                -> Iske andar sabhi HTML elements aate hain.
+
+            <head> - Yeh section metadata, title, aur links to stylesheets ko contain karta hai.
+                -> Container for metadata about the document.
+                -> Yeh section browser ko document ke baare mein information deta hai.
+                -> Isme ham CSS files, JavaScript files, aur other resources link kar sakte hain.
+                -> Basically ham isme woh cheezen rakh te hein jo ki web-page mein display nahi hoti.
+
+            <title> - Yeh tag document ka title define karta hai jo browser tab mein dikhai deta hai.
+
+            <body> - Yeh section actual content ko contain karta hai jo user dekh sakta hai.
+                -> Contains all data to be rendered by the browser.
+                -> Yeh web-page ka visible part hai.
+                -> Isme ham text, images, links, aur other elements rakhte hain jo user interact kar sakta hai.
+-->
+
+
+
+<!--
+    Quick Points :
+        
+    -> HTMl tag is parent of head & body tag.
+    -> Most of html elements have opening & closing tags with content in between.
+    -> Some tags have no conmtent in between, like <br> (line break).
+    -> We can use inspect element/view page source to edit html.
+    -> Agar kisi page ka ham HTML change karte hain in the browser, toh woh sirf hamare browser mein change hota hai, server par nahi, actual code par kuch farak nhi padta hai.
+-->
+
+
+
+<!--
+    HTML is NOT Case-Sensitive :
+
+    -> HTML tags are not case-sensitive, meaning you can write them in uppercase, lowercase, or a mix of both.
+    -> However, it is a good practice to use lowercase for consistency and readability.
+
+    Example :
+        <HTML> is same as <html>
+        <BODY> is same as <body>
+        <p> is same as <P>
+-->
